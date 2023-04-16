@@ -1,4 +1,4 @@
-package io.petstore.swagger.data.post;
+package io.petstore.swagger.data.post.placeOrder;
 
 import lombok.Data;
 

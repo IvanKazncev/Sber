@@ -1,7 +1,7 @@
 package io.petstore.swagger.test;
 
 import io.petstore.swagger.data.get.returnStatusCode.ReturnStatusCodeValidData;
-import io.petstore.swagger.data.post.PlaceAnOrderForPetValidData;
+import io.petstore.swagger.data.post.placeOrder.PlaceAnOrderForPetValidData;
 import io.petstore.swagger.models.request.PlaceOrderModel;
 import io.petstore.swagger.step.Step;
 import org.junit.jupiter.api.DisplayName;
