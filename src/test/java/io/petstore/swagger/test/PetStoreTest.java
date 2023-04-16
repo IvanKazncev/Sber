@@ -24,11 +24,12 @@ public class PetStoreTest {
                 .getAlive()).as("Количество не совпадает").isEqualTo(1);
 
     }
+
     @Test
     @DisplayName("Проверка размещение заказа")
-    void placeOrderTest(){
-      assertThat(step.placeOrderTest(placeAnOrderForPetValidData.getEndPoint(),placeOrderModel,200)
-              .getStatus()).as("Статус заказа некорректный").isEqualTo("placed");
+    void placeOrderTest() {
+        assertThat(step.placeOrderTest(placeAnOrderForPetValidData.getEndPoint(), placeOrderModel, 200)
+                .getStatus()).as("Статус заказа некорректный").isEqualTo("placed");
     }
 
 }
